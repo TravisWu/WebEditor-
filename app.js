@@ -1,3 +1,5 @@
+document.getElementById('results').contentWindow.document.body.style.color='white';
+
 var windowHeight= $(window).height();
 //733
 var menuHeight=$("#menu").height();
@@ -16,5 +18,10 @@ $(".toggle").click(function(){
   }).length;
 
   var widthColumn = 100/showDiv;
-  $(".codeContainer").width(widthColumn + "%"); 
+  $(".codeContainer").width(widthColumn + "%");
 });
+
+
+$("#runButton").click(function(){
+  $("iframe").contents().find("html").html('<style>'+$("#cssCode").val()+'</style>' +$("#htmlCode").val());
+})
