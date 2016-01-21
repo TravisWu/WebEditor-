@@ -85,7 +85,7 @@ body{
 
 .codeLabel{
   position: absolute;
-  color:blue;
+  color:RebeccaPurple ;
   right: 10px;
   top: 10px;
 }
@@ -103,5 +103,5 @@ iframe {
 }
 
 .selected{
-  background-color: grey;
+  background-color: RebeccaPurple ;
 }
