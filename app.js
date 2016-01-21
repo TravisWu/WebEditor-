@@ -11,6 +11,10 @@ $(".toggle").click(function(){
   var activeDiv = $(this).html();
     $("#"+ activeDiv + "Container").toggle();
 
+  var showDiv = $(".codeContainer").filter(function(){
+    return($(this).css("display")!= "none");
+  }).length;
 
-
+  var widthColumn = 100/showDiv;
+  $(".codeContainer").width(widthColumn + "%"); 
 });

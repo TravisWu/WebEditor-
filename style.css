@@ -78,6 +78,7 @@ body{
   color: MediumPurple;
   border: none;
   border-right: 3px solid MediumPurple;
+  box-sizing: border-box;
   font-family: serif;
   font-size: 80%;
 }
@@ -98,9 +99,7 @@ iframe {
   height:100%;
   position:relative;
   left: 20px;
-  border-right: none;
-  border-top: none;
-  border-bottom: none;
+  border: none;
 }
 
 .selected{
