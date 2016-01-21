@@ -44,7 +44,7 @@ body{
   margin: 0 auto;
   padding:0;
   list-style: none;
-  width: 244.5px;
+  width: 195.1px;
   height:27px;
   border: 1px solid grey;
   border-radius: 3px;
@@ -90,7 +90,7 @@ body{
 }
 
 
-#cssContainer, #jsContainer{
+#CSSContainer, #JSContainer{
   display: none;
 }
 
